@@ -8,3 +8,9 @@ Create a real fake player to your server
 - [ ] give a messages to leave and join server
 - [ ] possible to register new players to show "welcome %player%" on global
 - [ ] possible to add afk and remove afk
+
+# Compile
+
+- Instal maven like `sudo apt install maven`
+- run `mvn compile && mnv package`
+

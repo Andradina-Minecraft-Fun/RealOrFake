@@ -12,8 +12,9 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		getLogger().info("Hello, SpigotMC!");
 
-		MinecraftServer server = ((CraftServer)Bukkit.getServer()).getServer();
-	WorldServer world = ((CraftWorld)Bukkit.getWorlds().get(0)).getHandle();
+		for (OfflinePlayer offPlayer : Bukkit.getServer().getOfflinePlayers()) {
+			getLogger().info(offPlayer.getName());
+		}
 	}
 
 	@Override
