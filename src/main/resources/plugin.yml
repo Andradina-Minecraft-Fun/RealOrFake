@@ -1,0 +1,20 @@
+main: br.com.centralandradina.realorfake.Main
+name: RealOrFake
+version: "@version@"
+api-version: "1.20"
+author: Bruno Pitteli Gonçalves
+description: Emulate fake players as real one
+commands:
+  # ex:
+  #   description: Base command for EXAMPLE
+  #   usage: "For a list of commands, type /ex help"
+  #   aliases: example
+permissions:
+  # example.test:
+  #   description: DESCRIPTION
+  #   default: true
+  # example.*:
+  #   description: Grants all other permissions
+  #   default: false
+  #   children:
+  #     example.test: true
